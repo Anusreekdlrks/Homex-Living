@@ -155,7 +155,7 @@
         <!-- ==========================
              CONTACT MATRIX
              ========================== -->
-        <section class="py-20 border-t-2 border-[#1A1A1A]/10 grid grid-cols-1 md:grid-cols-2 gap-12 items-end">
+        <!-- <section class="py-20 border-t-2 border-[#1A1A1A]/10 grid grid-cols-1 md:grid-cols-2 gap-12 items-end">
             <div>
                 <span class="text-xs font-bold tracking-widest uppercase text-[#8A7355] block mb-4">Location</span>
                 <p class="font-['Playfair_Display'] text-2xl text-[#1A1A1A] font-bold">Near Chelannur BLC</p>
@@ -178,6 +178,26 @@
                     <p class="block"><a href="tel:+919747299001" class="hover:text-[#8A7355]">9747 2990 01</a></p>
                 </div>
             </div>
+        </section> -->
+
+        <section class="py-20 border-t-2 border-[#1A1A1A]/10 flex flex-col items-center justify-center text-center">
+            <span class="text-xs font-bold tracking-[0.2em] uppercase text-[#8A7355] block mb-4">
+                Direct Inquiries
+            </span>
+
+            <div class="group relative inline-block">
+                <a href="tel:+918086757975"
+                    class="font-['Playfair_Display'] text-xl sm:text-2xl md:text-3xl text-[#1A1A1A] font-bold tracking-tight hover:text-[#8A7355] transition-colors duration-300 block">
+                    +91 8086757975
+                </a>
+                <div
+                    class="h-0.5 w-0 bg-[#8A7355] group-hover:w-full transition-all duration-500 mx-auto mt-2 rounded-full">
+                </div>
+            </div>
+
+            <p class="text-xs font-semibold uppercase tracking-widest text-[#2A2A2A]/60 mt-4 font-mono">
+                Available for Consultations & Orders
+            </p>
         </section>
 
         <!-- ==========================
